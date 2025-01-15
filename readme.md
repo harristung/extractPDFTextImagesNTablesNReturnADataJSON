@@ -84,16 +84,3 @@ props for extracting data from PDFs, change them as needed
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-
-# PDF Extraction Script
-
-This script extracts images, text, and tables from a PDF file using `PyMuPDF` (also known as `fitz`) and `tqdm` for progress indication. The extracted data is saved in a JSON file.
-
-tqdm is optional, please comment out all tqdm lines if you wish not to use it.
-
-## Requirements
-
-You can install the required packages using pip:
-
-```sh
-
