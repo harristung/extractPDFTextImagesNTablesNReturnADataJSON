@@ -1,4 +1,4 @@
-# Extracting Text, Images & Tables in a PDF, Return to a JSON Format
+# Extracting Text, Images & Tables in a PDF, Return a JSON Format
 
 I have try many existing PDF extraction method for my local llama RAG system, but none are to my requirement. As we need many valuable data is in the images and table in a PDF, I want to extract texts, images and tables within each page of the PDF for keeping the context of the PDF document. With this python script texts, images and tables are organized in a JSON format for further operations, such as text splitting, or create embeddings. 
 
@@ -83,4 +83,8 @@ props for extracting data from PDFs, change them as needed
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+pymupdf
+https://pymupdf.readthedocs.io/en/latest/
 
