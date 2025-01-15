@@ -67,7 +67,17 @@ harristung@gmail.com
 
 * 0.1
     * Initial Release
-
+##Help
+props for extracting data from PDFs, change them as needed
+# _pdfFilePath : str : Path to the PDF file.
+# _imageOutputDir : str : Path to the directory where the images will be saved. MAKE SURE THE DIRECTORY EXISTS AND HAVE THE CORRECT PERMISSIONS.
+# _fromPage : int : The page number from which the extraction will start.
+# _endPage : int : The page number at which the extraction will end.
+# _extractImage : bool : If True, images will be extracted.
+# _extractText : bool : If True, text will be extracted.
+# _extractTable : bool : If True, tables will be extracted.
+# _imageSizeLowerLimitInKb : int : The minimum size of the image in KB to be saved.
+# _extractTableStrategy : str : The strategy to use for extracting tables. Can be 'text' or 'lines'.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
