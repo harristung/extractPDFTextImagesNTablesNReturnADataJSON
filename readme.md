@@ -67,7 +67,8 @@ harristung@gmail.com
 
 * 0.1
     * Initial Release
-##Help
+
+## Help
 props for extracting data from PDFs, change them as needed
 1. _pdfFilePath : str : Path to the PDF file.
 2. _imageOutputDir : str : Path to the directory where the images will be saved. MAKE SURE THE DIRECTORY EXISTS AND HAVE THE CORRECT PERMISSIONS.
