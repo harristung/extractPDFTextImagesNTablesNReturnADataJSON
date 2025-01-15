@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # REPLACE THE FILE PATH WITH THE PATH TO THE PDF FILE YOU WANT TO EXTRACT DATA FROM AND THE DIRECTORY WHERE YOU WANT TO SAVE THE IMAGES, MAKE SURE THE DIRECTORY EXISTS AND HAVE THE CORRECT PERMISSIONS.
     main(_pdfFilePath = "sampleDocumentWithTable.pdf", _imageOutputDir = "images", _writeResultToAJSONFile=True, _writeResultToJSONFileName="jsonResultNow.json")
 ```
-If you are extracting images, please make sure that the directory used to store the imaged is available and have the correct permission
+If you are extracting images, please make sure that the directory used to store the images is available and have the correct permission
 ```
 sudo mkdir images
 ```
