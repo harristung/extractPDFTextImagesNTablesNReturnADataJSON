@@ -3,7 +3,10 @@
 I have try many existing PDF extraction method for my local llama RAG system, but none are to my requirement. As we need many valuable data is in the images and table in a PDF, I want to extract texts, images and tables within each page of the PDF for keeping the context of the PDF document. With this python script texts, images and tables are organized in a JSON format for further operations, such as text splitting, or create embeddings. 
 
 ## Getting Started
-
+Clone this project or download the project to your desired location
+```
+git clone https://github.com/harristung/extractPDFTextImagesNTablesNReturnADataJSON.git
+```
 Make sure you have Python3 installed in your system, then please create a virtual environment
 ```
 python3 -m venv venv
